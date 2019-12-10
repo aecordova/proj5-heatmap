@@ -124,7 +124,7 @@ header li {
   margin-left: 60px;
 }
 
-.lp-see-all{
+.see-all{
   width: 300px;
   height: 80px;
   margin: auto;
@@ -136,15 +136,20 @@ header li {
   text-align: center;
 }
 
-.blue-data {
+.blue-data,
+.red-data {
   height: 300px;
+  
 }
 
-.blue-box {
+.blue-box,
+.red-box {
   height: 100px;
+  
 }
 
-.blue-image {
+.blue-image,
+.red-image {
   height: 300px;
 }
 
@@ -178,4 +183,13 @@ header li {
 
 .section4-top p {
   height: 200px;
+}
+
+.red-image{
+  float: right;
+  width: 25%;
+}
+
+.red-data {
+  width: 75%;
 }
