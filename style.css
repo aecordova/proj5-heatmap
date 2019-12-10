@@ -6,6 +6,23 @@
     box-sizing: border-box;
 }
 
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h2,
+h3 {
+  font-family: 'Signika', sans-serif;
+  margin-bottom: 30px;
+}
+
+h2 {
+  font-size: 3rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
+
 .priority1 {
     background: rgb(0, 0, 0);
 }
@@ -114,19 +131,19 @@ header li {
   grid-column: span 2;
 }
 
-.section2 h3 ,
-.section6 h3 {
+.section2 .bookmark ,
+.section6 .bookmark {
   width: 300px;
   position: absolute;
   transform: rotate(90deg);
 }
 
-.section2 h3{
+.section2 .bookmark{
   margin-top: 120px;
   margin-left: -100px;
 }
 
-.section6 h3{
+.section6 .bookmark{
   margin-top: 140px;
   margin-left: -160px;
 }
@@ -166,8 +183,8 @@ header li {
   height: 300px;
 }
 
-.blue-data > p {
-  line-height: 90px;
+.blue-data {
+  padding-top: 20px;
 }
 
 .section4-img {
@@ -196,6 +213,7 @@ header li {
 
 .section4-top p {
   height: 200px;
+  padding: 30px;
 }
 
 .red-image{
@@ -220,6 +238,11 @@ header li {
 
 .newsletter {
   grid-column: span 4;
+  text-align: center;
+}
+
+.newsletter p {
+  width: 50%;
 }
 
 .section6-grid ul {
