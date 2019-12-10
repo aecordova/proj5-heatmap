@@ -18,10 +18,20 @@ h3 {
 
 h2 {
   font-size: 3rem;
+  font-weight: 700;
 }
 
 h3 {
   font-size: 1.5rem;
+  font-weight: 400;
+}
+
+h1{
+  font-weight: 700;
+}
+
+p{
+  font-family: serif;
 }
 
 .priority1 {
