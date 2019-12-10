@@ -145,7 +145,7 @@ header li {
 .blue-box,
 .red-box {
   height: 100px;
-  
+  clear: right;
 }
 
 .blue-image,
@@ -192,4 +192,9 @@ header li {
 
 .red-data {
   width: 75%;
+}
+.section6{
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
 }
