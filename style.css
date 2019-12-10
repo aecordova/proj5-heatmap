@@ -156,6 +156,7 @@ header li {
 .section2 .bookmark {
   margin-top: 120px;
   margin-left: -100px;
+  color: white;
 }
 
 .section6 .bookmark {
@@ -168,10 +169,6 @@ header li {
   display: flex;
   justify-content: center;
   align-items: center;
-}
-
-.latest-posts > article:nth-child(1) {
-  margin-left: 60px;
 }
 
 .see-all {
