@@ -112,12 +112,17 @@ header li {
   grid-column: span 2;
 }
 
-.section2 h3 {
+.section2 h3 ,
+.section6 h3 {
   width: 160px;
   position: absolute;
   transform: rotate(90deg);
   margin-left: -20px;
   margin-top: 80px;
+}
+
+.section6 h3 {
+  left: 0;
 }
 
 .latest-posts > article:nth-child(1) {
@@ -193,8 +198,41 @@ header li {
 .red-data {
   width: 75%;
 }
-.section6{
+.section6-grid{
   width: 100%;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  grid-auto-rows: 400px ;
+}
+
+.section6 {
+  width: 90%;
+  margin: auto;
+}
+
+.newsletter {
+  grid-column: span 4;
+}
+
+.section6-grid ul {
+  height: 100%;
+}
+
+.section6-grid h2 {
+  width: 100%;
+  height: 120px;
+}
+
+footer {
+  padding: 50px;
+  text-align: center;
+}
+footer ul {
+  display: flex;
+  justify-content: center;
+}
+
+footer li {
+  width: 100px;
+  border: none;
 }
